@@ -25,6 +25,7 @@ declare namespace MJSoul {
         timeout?: number,
         wsOption?: RequestOptions,
         liqiPath: string,
+        apiVersion?: string,
     }
     const record: Record;
     class DHS extends MJSoul { }
