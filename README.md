@@ -1,12 +1,25 @@
 # **mjsoul**
 
+Fork from https://www.npmjs.com/package/mjsoul
+
+## New Features
+
+- Custom `liqi.json` Path
+- API version config
+
+### todo
+
+- [ ] Update `liqi.json` automatically
+
+## Original README
+
 **雀魂通信客户端**  
 完成了雀魂底层protobuf数据的解析，转换为可读的json数据
 
 **Install with npm:**
 
 ```
-$ npm i mjsoul
+$ npm i @witch-elaina/mjsoul
 ```
 
 **Example:**
