@@ -21,7 +21,7 @@ class MJSoul extends EventEmitter {
         this.ws = null
         this.wsOption = {}
         this.service = ".lq.Lobby."
-        this.root = pb.Root.fromJSON(require("./liqi.json"))
+        this.root = pb.Root.fromJSON(require(this.liqiPath))
         this.wrapper = this.root.lookupType("Wrapper")
         this.url = "wss://gateway-cdn.maj-soul.com/gateway"
         this.timeout = 5000
