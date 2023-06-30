@@ -1,12 +1,12 @@
 {
-  "name": "mjsoul",
+  "name": "@witch-elaina/mjsoul",
   "version": "2.3.0",
   "description": "majsoul client tool",
   "main": "index.js",
   "types": "index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/takayama-lily/mjsoul.git"
+    "url": "git+https://github.com/WitchElaina/mjsoul-api-cli.git"
   },
   "scripts": {
     "test": "node test"
@@ -18,7 +18,7 @@
     "majsoul",
     "MahjongSoul"
   ],
-  "author": "takayama <takayama@foxmail.com>",
+  "author": "witchelaina",
   "license": "MIT",
   "dependencies": {
     "protobufjs": "^6.9.0",
